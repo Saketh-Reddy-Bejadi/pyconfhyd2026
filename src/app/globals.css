@@ -27,20 +27,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 ::-webkit-scrollbar-track {
-  background: #fff8f3;
+  background: theme('colors.background.light');
 }
 
 .dark ::-webkit-scrollbar-track {
-  background: #1B212C;
+  background: theme('colors.background.dark');
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fe9c00;
+  background: theme('colors.primary.500');
   border-radius: 10px;
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: #cd7f00;
+  background: theme('colors.primary.500');
 }
 
 @keyframes fall {
